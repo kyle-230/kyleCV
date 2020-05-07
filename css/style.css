@@ -40,23 +40,6 @@ section .heading h2 {
   background: #fff;
   margin: 0 auto 20px;
 }
-.button1 {
-  font-weight: bold;
-  text-transform: uppercase;
-  color: white;
-  border: 1px solid white;
-  display: inline-block;
-  margin-top: 20px;
-  padding: 18px 50px;
-  border-radius: 3px;
-  transition: all 0.3s ease-in 0s;
-  background: transparent;
-}
-.button1:hover {
-  background: white;
-  color: #d82c2e;
-  text-decoration: none;
-}
 
 /* MENU */
 .navbar {
@@ -109,6 +92,22 @@ section .heading h2 {
 }
 #about .heading h3 {
   color: #000;
+}
+.button1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  border: 1px solid white;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 18px 50px;
+  border-radius: 3px;
+  transition: all 0.3s ease-in 0s;
+}
+.button1:hover {
+  background: white;
+  color: #d82c2e;
+  text-decoration: none;
 }
 
 /* SKILLS */
@@ -363,41 +362,4 @@ footer h5 {
 .env:hover {
   color: #32cd32;
   transition: 0.2s;
-}
-
-/*CONTACT*/
-
-#contact {
-  background-color: #d82c2e;
-}
-
-#contact .heading h2 {
-  color: #fff;
-}
-
-#contact-form {
-  font-size: 20px;
-  color: #fff;
-}
-/*---  NEW  ------*/
-
-.form-control {
-  height: 50px;
-  font-size: 18px;
-}
-#contact-form input[type="submit"] {
-  margin: 40px auto 0px;
-  display: block;
-}
-.comments {
-  font-style: italic;
-  font-size: 18px;
-  color: #fff;
-  height: 25px;
-}
-#contact-form .thank-you {
-  text-align: center;
-  margin-top: 15px;
-  font-weight: bold;
-  font-size: 22px;
 }
